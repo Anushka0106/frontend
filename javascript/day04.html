@@ -15,27 +15,26 @@
    </div>
 
 <script>
-     document.getElementById("btn").onclick=function(){
-        let a =document.getElementById("in").value
-        
-        console.log(a)
-        
-    }
-    document.getElementById("btn1").onclick=function(){
-        let v=0
-      
-       
-        if(v==0) {
-        document.getElementById("image").style.display="block"
-    v=1}}
+   document.getElementById("btn").onclick = function() {
+  let a = document.getElementById("in").value;
+  console.log(a);
+}
 
-    else{
+document.getElementById("btn1").onclick = function() {
+  let v = 0;
   
-    
+  if (v == 0) {
+    document.getElementById("image").style.display = "block";
+    v = 1;
+  } else {
+    document.getElementById("image").style.display = "none";
+    v = 0;
+  }
+}
 
-        document.getElementById("image").style.display="none"
-        v=0
-    }
+ 
 </script>
 </body>
 </html>
+
+  
